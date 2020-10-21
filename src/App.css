@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+  font-family: 'Open Sans', sans-serif;
+}
+.App{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logoStyle{
+  height: 30px;
+}
+
+.carousel-item {
+  position: relative;
+  z-index: 1;
+}
+.carousel-caption{
+  position: absolute;
+  top: 10%;
+  left: 7%!important;
+ 
+}
+.carousel-caption h3,p{
+text-align: left;
+color: black;
+}
+.carousel-caption button{
+  left: 0;
+  position: absolute;
+  color: #fff;
+  background-color: #000;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: none;
+
+}
+.main_1{
+  margin: 40px 0;
+}
+.card-body{
+  padding: 5px 0!important;
+}
+.card{
+border : none !important;
+}
+.card-img-top{
+  height: 170px;
+}
+
+.banner{
+background-image:linear-gradient( to right, rgba(0,0,0,0.7), rgba(0,0,0,0)), url('./images/5.jpeg');
+height: 470px;
+width: 100%;
+background-size: 100% 100%;
+margin: 10px 0 40px 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding-left: 40px;
+}
+
+.banner_text button{
+padding: 10px;
+background: black;
+color: white;
+}
+.social{
+  margin: 50px 0;
+}
+.fa-youtube{
+  color: red;
+}
+.footer{
+  background: #f2f2f2;
+  /* padding: 40px 0; */
+  text-align: center;
+}
+.footer ul li {
+  list-style: none;
+  color: #818181;
+}
+
